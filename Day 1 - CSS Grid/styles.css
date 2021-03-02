@@ -1,0 +1,79 @@
+/* Make width and height to 100%, rem
+Four components
+For each items
+Add logo
+Add navigation
+Only keep side bar
+Routing for menu
+Each route is lazy
+*/
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 100px 1fr 80px; 
+  }
+
+  .header {
+      grid-column-start:1 ;
+      grid-column-end: 4;
+  }
+
+  .sidebar-left {
+      grid-row-start: 2;
+      grid-row-end: 4;
+  }
+
+  .content {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 4;
+  }
+
+  .sidebar-right {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+
+  .footer {
+    grid-column-start:1 ;
+    grid-column-end: 4;
+  }
+
+  /* These are additional styles */  
+  body {
+    background-color: #333030;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .item {
+    background-color: #235c7e;
+    color: #ffffff;
+    display: flex;
+    border: 6px solid #171717;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .header {
+    background-image: linear-gradient(160deg, #846be7 0%, #554699 127%);
+  }
+  
+  .sidebar {
+    background-image: linear-gradient(203deg, #33c4bc 0%, #29A49D 90%)
+  }
+  
+  .content{
+    background-image: linear-gradient(130deg, #6C52D9 0%, #1EAAFC 85%, #3EDFD7 100%);
+  }
+  
+  .footer {
+    background-image: linear-gradient(160deg, #7a816d 0%, #9B8AE6 127%);
+  }
