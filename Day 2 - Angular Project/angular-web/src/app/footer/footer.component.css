@@ -1,21 +1,18 @@
 .footer{
   background:#000;
-  padding:30px 0px;
-  font-family: 'Play', sans-serif;
   text-align:center;
 }
 
 .footer .row{
   width:100%;
-  margin:1% 0%;
-  padding:0.6% 0%;
-  color:grey;
+  margin:20px 10px;
+  padding:20px 10px;
+  color:#fff;
 }
 
 .footer .row a{
   text-decoration:none;
-  color:grey;
-  transition:0.5s;
+  color: #fff;
 }
 
 .footer .row a:hover{
@@ -28,12 +25,7 @@
 
 .footer .row ul li{
   display:inline-block;
-  margin:0px 30px;
-}
-
-.footer .row a i{
-  font-size:2em;
-  margin:0% 1%;
+  margin:10px 30px;
 }
 
 @media (max-width:720px){
@@ -45,8 +37,5 @@
     display:block;
     margin:10px 0px;
     text-align:left;
-  }
-  .footer .row a i{
-    margin:0% 3%;
   }
 }

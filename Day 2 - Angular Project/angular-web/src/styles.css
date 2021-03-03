@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset Default browser styles*/
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,6 @@
 /*Main styling*/
 html, body {
   font-family: 'Segoe UI', Tahoma, Geneba, sans-serif;
-  line-height: 1.7em;
 }
 
 a {
@@ -19,7 +18,7 @@ a {
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 100px 400px 180px;
+  grid-template-rows: 100px 400px 25vh;
 }
 
 .header {
